@@ -5,7 +5,7 @@
 }
 body{
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'sofia-pro', sans-serif;
 	color:#F6F8FF;
 	padding:0;
 	margin: 0 auto;
@@ -15,6 +15,10 @@ body{
 	background-color: #333745;
 	background-attachment: fixed;
 
+}
+.opener img {
+	width:80%;
+	padding: 25px;
 }
 .top-navigation ul{
 	list-style: none;
@@ -104,8 +108,8 @@ li a {
 }
 
 img{
-	width: 80%;
-	padding:25px;
+	width: 100%;
+	
 	
 }
 #work{
@@ -128,7 +132,7 @@ img{
 	justify-content: center;
 	flex-direction: column;
 	width:50vw;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'sofia-pro', sans-serif;
 	background-color: #ECF8F8;
 	color:#FE5F55;
 }
@@ -148,81 +152,53 @@ img{
 
 }
 
-.cc{
-	background-image:url('https://i.imgsafe.org/8e4b3d5bbe.png');
+.cc, .yogaQuiz, .hotCold{
 	width:50vw;
 	height: 500px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:4rem;
 	
+}
+.cc{
+	background-image:url('https://i.imgsafe.org/8e4b3d5bbe.png');
 }
 .yogaQuiz{
 	background-image:url('https://i.imgsafe.org/8e6a372bde.png');
-	width:50vw;
-	height: 500px;
-	
 }
-.hotCold {
+.hotCold{
 	background-image:url('https://i.imgsafe.org/8ea8988552.png');
-	width:50vw;
-	height: 500px;
-	
+}
+
+button{
+	width: 100px;
+	height:100px;
+	border-radius: 50px;
+	font-size:4rem;
+	padding-bottom: 10px;
+	color:#FE5F55;
+	background-color: #ECF8F8;
+	border: none;
 }
 
 .webWorkExamples{
 	justify-content: center;
 	flex-direction: column;
 	width:50vw;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'sofia-pro', sans-serif;
 	background-color: #ECF8F8;
 	color:#333745;
 	
 }
-.about{
-	height:80vh;
-	color:#333745;
-}
-.aboutTitle{
-	float:left;
-	width:50%;
-	background-color: #A3EBF2;
-	height:80vh;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	font-size:3.5rem;
-}
-.aboutContent{
-	float: left;
-	width:50%;
-	height:80vh;
-	display: block;
-	/*justify-content: center;
-	flex-direction: column;*/
-	overflow: auto;
-	font-size:1.25rem;
-	font-family:'Source Code Pro', sans-serif;
-
-	background-color: #ECF8F8;
-}
-.aboutMe{
-	padding: 70px;
-}
-.hi{
-	font-size: 3rem;
-	padding-bottom:30px;
-	font-family: 'Montserrat', sans-serif;
-}
-.dog{
-	padding-top: 30px;
-}
 .contact{
-	/*background-image: linear-gradient(to right, #EC4E20, #EC4E20 50%, white 50%);*/
 	background-color: #FE5F55;
 	background-attachment:fixed;
 	background-repeat: no-repeat;
 	display: -webkit-flex;
 	display: flex;
 	flex-direction:column;
-	justify-content:space-between;
+	justify-content:center;
 	-webkit-align-items: center;
 	align-items: center;
 	color:#333745;
@@ -230,6 +206,43 @@ img{
 	width:100vw;
 	font-family:'Source Code Pro', sans-serif;
 }
+.about{
+	color:#333745;
+	display: flex;
+	align-items: center;
+ 	justify-content: center;
+ 	background-color: #A3EBF2;
+
+}
+
+.aboutTitle{
+	background-color: #A3EBF2;
+	justify-content: center;
+	flex-direction: column;
+	width: 50vw;
+	font-size:3.5rem;
+}
+
+.aboutContent{
+	font-size:1.25rem;
+	font-family:'Source Code Pro', sans-serif;
+	background-color: #ECF8F8;
+	width: 50vw;
+
+}
+
+.aboutMe{
+	padding: 70px;
+}
+.hi{
+	font-size: 3rem;
+	padding-bottom:30px;
+	font-family: 'sofia-pro', sans-serif;
+}
+.dog{
+	padding-top: 30px;
+}
+
 i {
 	color:#333745;
 }
@@ -248,7 +261,7 @@ i:hover{
 	letter-spacing: 8px;
 	text-decoration: none;
 	font-size: 1.25rem;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'sofia-pro', sans-serif;
 }
 .line{
 	width: 40px;
@@ -260,4 +273,17 @@ i:hover{
 }
 .social{
 	margin-top: 25px;
+}
+#contactCreatorText, #hotColdText, #yogaQuizText {
+	display: none;
+	width: 100vw;
+	height: 100vh;
+	color: #333745;
+	background-color: #FE5F55;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 2em;
+	z-index: 1000;
+	font-size: 20px;
 }

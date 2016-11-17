@@ -17,4 +17,27 @@ $(document).ready(function(){
                     $('.nContact').css('color','#FE5F55');
                 }
             });
-        });
+            //  $("#contactCreator").click(function(){
+            // $("#contactCreatorText").fadeIn(1000);
+            // });
+});
+$(document).ready(function(){
+    $("#contactCreator").click(function(){
+      $("#contactCreatorText").fadeIn(1000);
+    });
+    $("a.close").click(function(){
+      $("#contactCreatorText").fadeOut(1000);
+    });
+    $("#hotCold").click(function(){
+      $("#hotColdText").fadeIn(1000);
+    });
+    $("a.close").click(function(){
+      $("#hotColdText").fadeOut(1000);
+    });
+    $("#yogaQuiz").click(function(){
+      $("#yogaQuizText").fadeIn(1000);
+    });
+    $("a.close").click(function(){
+      $("#yogaQuizText").fadeOut(1000);
+    });
+});

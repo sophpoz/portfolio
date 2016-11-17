@@ -4,9 +4,12 @@
 	<meta charset="UTF-8">
 	<title>Sophia Pozzi</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="https://use.typekit.net/uow3yrz.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300" rel="stylesheet">
 	<script src="https://use.fontawesome.com/2ed20a90f2.js"></script>
 </head>
 <body>
@@ -31,33 +34,20 @@
 	<div id="work">
 		<div class="webWorkTitle">Web Work</div>
 		<div class="webWorkExamples">
-			<div class="cc">+</div>
-			<div class="hotCold">+</div>
-			<div class="yogaQuiz">+</div>
+			<div class="cc"><button type="button" id="contactCreator">+</button></div>
+			<div class="hotCold"><button type="button" id="hotCold">+</button></div>
+			<div class="yogaQuiz"><button type="button" id="yogaQuiz">+</button></div>
 		</div>
 	</div>
 	<div class="illWork">
-		<div class="illWorkTitle">Digital Illustration Work</div>
+		<div class="illWorkTitle">Digital Illustration & Graphic Design</div>
 		<div class="illWorkExamples">
 			<img src="https://i.imgsafe.org/f730594fc3.jpg"></img>
 			<img src="https://i.imgsafe.org/8df55f37e2.png"</img>
 			<img src="https://i.imgsafe.org/8e08c0a939.jpg"></img>
 		</div>
 	</div>
-
-	<div class="about">
-		<div class="aboutTitle" id="aboutTitle">
-			About
-		</div>
-		<div class="aboutContent">
-			<div class="aboutMe"><div class="hi">Hi! I’m Sophia & I’m all about creating special web spaces that brings your brand's personality alive. </div>
-			<div class="dog">When I'm not buiding in the web, i'm working on being the person my dog thinks I am, in a yoga class or watching Law and Order.</div>
-
-			<div class="dog">When i’m not working i’m probably in a yoga class, watching Law and Order: SVU, or listing to hip hop.</div>	
-		</div>
-	</div>
 	<div class="contact" id="contact">
-		<div></div>
 		<div class="info">
 			<div class="hi">With that being said--Let’s create! </div>Have an idea or project you’d like to get started on?
 			<br>Drop me a line and lets be friends RN.
@@ -70,7 +60,23 @@
 				<a href="http://sophia-zorita.tumblr.com/" target="blank"><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a>
 			</div>
 		</div>
-		<div></div>
 	</div>
+	<div id="contactCreatorText">Info here about project<br><a class="close" >close</a></div>
+	<div id="hotColdText">Info here about project<br><a class="close" >close</a></div>
+	<div id="yogaQuizText">Info here about project<br><a class="close">close</a></div>
+
+	<div class="about">
+		<div class="aboutTitle" id="aboutTitle">
+			About
+		</div>
+		<div class="aboutContent">
+			<div class="aboutMe"><div class="hi">Hi! I’m Sophia & I’m all about creating special web spaces </div>
+			<div class="dog">When I'm not building in the web, i'm working on being the person my dog thinks I am, in a yoga class or watching Law and Order.</div>
+
+			<div class="dog">When i’m not working i’m probably in a yoga class, watching Law and Order: SVU, or listing to hip hop.</div>	
+		</div>
+	</div>
+
+
 </body>
 </html>
