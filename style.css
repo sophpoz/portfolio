@@ -355,6 +355,9 @@ i:hover{
 	}
 	.hi{
 		font-size: 2.5rem;
+		padding-bottom: 0;
 	}
-	
+	.aboutMe{
+		padding: 30px;
+	}
 }
