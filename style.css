@@ -202,7 +202,7 @@ button{
 	-webkit-align-items: center;
 	align-items: center;
 	color:#333745;
-	height: 80vh;
+	height: 50vh;
 	width:100vw;
 	font-family:'Source Code Pro', sans-serif;
 }
@@ -359,5 +359,8 @@ i:hover{
 	}
 	.aboutMe{
 		padding: 30px;
+	}
+	button{
+		font-size: 2rem;
 	}
 }
