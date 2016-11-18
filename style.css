@@ -93,7 +93,6 @@ li a {
 	font-size: 5vw;
 	text-align: right;
 	color:white;
-	/*flex: 0 0 auto;*/
 	position: relative;
 	left:15%;
 	letter-spacing: 3px;
@@ -286,4 +285,51 @@ i:hover{
 	padding: 2em;
 	z-index: 1000;
 	font-size: 20px;
+}
+@media only screen and (max-width:850px) {
+	.opener{
+		min-height: 100%;
+	}
+	li{
+		padding: 15px;
+		display: inline-block;
+		font-size: 20px;
+	}
+	.rotateAbout, .rotateContact, .navWork{
+		position: auto;
+		-webkit-transform: rotate(0deg);
+
+		/* Firefox */
+		-moz-transform: rotate(0deg);
+
+		/* IE */
+		-ms-transform: rotate(0deg);
+
+		/* Opera */
+		-o-transform: rotate(0deg);
+		top: 0px;
+	}
+	.intro{
+		display:block;
+		margin-top: 50px;
+
+	}
+	.name{
+		font-size: 15vw;
+		line-height: 75%;
+		text-align: center;
+		left: 0;
+
+	}
+	.description{
+		font-size:3.5vw;
+
+	}
+	.opener img {
+		width: 100%;
+		padding: 25px;
+		padding-top: 10px;
+
+	}
+
 }
