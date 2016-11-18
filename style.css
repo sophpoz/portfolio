@@ -11,7 +11,7 @@ body{
 	margin: 0 auto;
 }
 .opener{
-	min-height: 100vh;
+	min-height: 100%;
 	background-color: #333745;
 	background-attachment: fixed;
 
@@ -19,6 +19,7 @@ body{
 .opener img {
 	width:80%;
 	padding: 25px;
+	margin-bottom: 30px;
 }
 .top-navigation ul{
 	list-style: none;
@@ -254,6 +255,7 @@ i:hover{
 	padding:20px;
 	background-color: #ECF8F8;
 	font-size: 1rem;
+	margin: 30px;
 }
 .email{
 	margin-top: 25px;
@@ -334,5 +336,25 @@ i:hover{
 		padding-top: 10px;
 
 	}
-
+	#work, .illWork,.about{
+		display: block;
+	}
+	.webWorkTitle, .aboutTitle{
+		width: 100vw;
+	}
+	.webWorkExamples, .illWorkExamples, .aboutContent{
+		width: 100vw;
+	}
+	.cc, .yogaQuiz, .hotCold{
+		width: 100vw;
+		height: 250px;
+	}
+	.illWorkTitle{
+		padding: 20px;
+		width: 100vw;
+	}
+	.hi{
+		font-size: 2.5rem;
+	}
+	
 }
