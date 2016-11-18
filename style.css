@@ -33,13 +33,14 @@ li{
 	padding: 40px;
 	font-size:1.5vw;
 	font-family:'Source Code Pro', sans-serif;
+
 	
 }
 
 .rotateAbout{
 	position:fixed;
 	left:0px;
-	top:60px;
+	top:33%;
 	/* Safari */
 	-webkit-transform: rotate(-90deg);
 
@@ -56,7 +57,7 @@ li{
 .rotateContact{
 	position: fixed;
 	right: 0px;
-	top: 60px;
+	top: 33%;
 	/* Safari */
 	-webkit-transform: rotate(90deg);
 
@@ -344,6 +345,12 @@ i:hover{
 	}
 	.webWorkExamples, .illWorkExamples, .aboutContent{
 		width: 100vw;
+	}
+	.aboutContent{
+		height:100vh;
+	}
+	.contact{
+		height:100vh;
 	}
 	.cc, .yogaQuiz, .hotCold{
 		width: 100vw;
