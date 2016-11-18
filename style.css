@@ -286,7 +286,7 @@ i:hover{
 	z-index: 1000;
 	font-size: 20px;
 }
-@media only screen and (max-width:850px) {
+@media only screen and (max-width:550px) {
 	.opener{
 		min-height: 100%;
 	}
