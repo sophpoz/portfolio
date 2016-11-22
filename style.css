@@ -38,6 +38,7 @@ li{
 }
 
 .rotateAbout{
+	z-index: 1000;
 	position:fixed;
 	left:0px;
 	top:33%;
@@ -58,6 +59,7 @@ li{
 	position: fixed;
 	right: 0px;
 	top: 33%;
+
 	/* Safari */
 	-webkit-transform: rotate(90deg);
 
@@ -74,6 +76,7 @@ li{
 	position: fixed;
 	left:0;
 	right:0;
+	
 
 }
 li a {
@@ -153,7 +156,7 @@ img{
 
 }
 
-.cc, .yogaQuiz, .hotCold{
+.cc, .yogaQuiz, .hotCold, .etsy{
 	width:50vw;
 	height: 500px;
 	display: flex;
@@ -170,6 +173,9 @@ img{
 }
 .hotCold{
 	background-image:url('https://i.imgsafe.org/8ea8988552.png');
+}
+.etsy{
+	background-image:url('https://i.imgsafe.org/3cfbc726bc.png');
 }
 
 button{
@@ -229,11 +235,14 @@ button{
 	font-family:'Source Code Pro', sans-serif;
 	background-color: #ECF8F8;
 	width: 50vw;
+	display: flex;
 
 }
 
 .aboutMe{
 	padding: 70px;
+	align-items:center;
+	justify-content:center;
 }
 .hi{
 	font-size: 3rem;
@@ -276,7 +285,7 @@ i:hover{
 .social{
 	margin-top: 25px;
 }
-#contactCreatorText, #hotColdText, #yogaQuizText {
+#contactCreatorText, #hotColdText, #yogaQuizText, #etsyText {
 	display: none;
 	width: 100vw;
 	height: 100vh;
@@ -352,7 +361,7 @@ i:hover{
 	.contact{
 		height:100vh;
 	}
-	.cc, .yogaQuiz, .hotCold{
+	.cc, .yogaQuiz, .hotCold, .etsy{
 		width: 100vw;
 		height: 250px;
 	}
@@ -361,11 +370,12 @@ i:hover{
 		width: 100vw;
 	}
 	.hi{
-		font-size: 2.5rem;
+		font-size: 3.5rem;
 		padding-bottom: 0;
 	}
 	.aboutMe{
 		padding: 30px;
+		margin: auto;
 	}
 	button{
 		font-size: 2rem;
