@@ -486,9 +486,9 @@ button, a {
 	#sp img{
 		width:30%;
 	}
-	#contactCreatorText, #hotColdText, #yogaQuizText, #etsyText{
+	/*#contactCreatorText, #hotColdText, #yogaQuizText, #etsyText{
 		display: block;
-	}
+	}*/
 	.x{
 		font-size: 40px;
 	}
