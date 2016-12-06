@@ -134,7 +134,7 @@ img{
 	flex-direction: column;
 	width: 50vw;
 	color: #FE5F55;
-	font-size:3.5rem;
+	font-size:5.5rem;
 
 }
 .illWorkExamples{
@@ -204,6 +204,9 @@ button:hover{
 	position: relative;
     top: -5px;
 }
+button:focus {
+	outline:0;
+}
 
 .webWorkExamples{
 	justify-content: center;
@@ -243,7 +246,7 @@ button:hover{
 	justify-content: center;
 	flex-direction: column;
 	width: 50vw;
-	font-size:3.5rem;
+	font-size:5.5rem;
 	color: #333745;
 }
 
@@ -316,6 +319,9 @@ i:hover{
 	font-size: 20px;
 	overflow: scroll;
 }
+.serious {
+	padding:6px;
+}
 .container{
 	display: flex;
     align-items: center;
@@ -348,6 +354,9 @@ i:hover{
 	left:0;
 	padding: 50px;
 
+}
+.x:hover{
+    top: -5px;
 }
 .picture{
 	justify-content: center;
@@ -469,8 +478,12 @@ button, a {
 	.webWorkExamples, .illWorkExamples, .aboutContent{
 		width: 100vw;
 	}
-	.aboutContent{
-		height:100vh;
+	#contactCreatorText img{
+	width: 100%;
+	display: inline-block;
+	}
+	#hotColdText .title{
+		left:0;
 	}
 	.contact{
 		height:100vh;
@@ -484,8 +497,8 @@ button, a {
 		width: 100vw;
 	}
 	.hi{
-		font-size: 3.5rem;
-		padding-bottom: 0;
+		font-size: 2.5rem;
+	
 	}
 	.aboutMe{
 		padding: 30px;
@@ -497,14 +510,11 @@ button, a {
 	#sp img{
 		width:30%;
 	}
-	/*#contactCreatorText, #hotColdText, #yogaQuizText, #etsyText{
-		display: block;
-	}*/
 	.x{
 		font-size: 40px;
 	}
 	.container{
-		display: block;
+		display: inline-block;
 	}
 	.title{
 		border: none;

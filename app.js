@@ -16,8 +16,10 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $("#contactCreator").click(function(){
+      $("#contactCreator").css('top','0px')
       $("#contactCreatorText").fadeIn(1000);
       $("body").css('overflow', 'hidden');
+
     });
     $("a.close").click(function(){
       $("#contactCreatorText").fadeOut(1000);
